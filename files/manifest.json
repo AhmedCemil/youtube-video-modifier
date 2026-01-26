@@ -1,18 +1,19 @@
 {
   "manifest_version": 3,
   "name": "YouTube Link Modifier",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Adds a button to modify YouTube URLs to yout-ube",
-  
+
   "permissions": [
     "activeTab"
   ],
-  
+
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
       "js": ["content.js"],
-      "css": ["styles.css"]
+      "css": ["styles.css"],
+      "run_at": "document_end"
     }
   ]
 }
