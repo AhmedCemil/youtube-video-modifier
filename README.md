@@ -2,6 +2,8 @@
 
 Chrome extension that adds a button to YouTube videos to open the same video on yout-ube.com
 
+**Compatible with YouTube's new UI (2026)**
+
 ## Installation Instructions
 
 Follow these steps to install the extension:
@@ -10,7 +12,7 @@ Follow these steps to install the extension:
 
 1. **Download the latest release**
    - Go to the [Releases page](../../releases)
-   - Download the `youtube-link-modifier-v1.0.zip` file
+   - Download the `youtube-link-modifier-v1.2.zip` file
    - Extract the ZIP file to a folder on your computer
 
 2. **Open Chrome Extensions page**
@@ -52,7 +54,7 @@ Follow these steps to install the extension:
 
 1. Navigate to any YouTube video
 2. Look for the extension button in the video player controls
-3. Click the button to open the same video on yout-ube.com <img width="1776" height="402" alt="image" src="https://github.com/user-attachments/assets/ae13251d-7338-4b16-8459-cbd6f513fc4b" />
+3. Click the button to open the same video on yout-ube.com
 
 ## Files
 
