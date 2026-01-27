@@ -12,7 +12,7 @@ Follow these steps to install the extension:
 
 1. **Download the latest release**
    - Go to the [Releases page](../../releases)
-   - Download the `youtube-link-modifier-v1.2.zip` file
+   - Download the `youtube-link-modifier-v1.3.zip` file
    - Extract the ZIP file to a folder on your computer
 
 2. **Open Chrome Extensions page**
@@ -24,7 +24,7 @@ Follow these steps to install the extension:
 
 4. **Load the extension**
    - Click "Load unpacked" button
-   - Select the `files` folder from the extracted archive
+   - Select the `youtube-link-modifier` folder from the extracted archive
    - The extension should now appear in your extensions list
 
 ### Method 2: Load Unpacked Extension (Development)
@@ -42,7 +42,7 @@ Follow these steps to install the extension:
 
 4. **Load the extension**
    - Click "Load unpacked" button
-   - Select the `files` folder containing the extension files
+   - Select the `youtube-link-modifier` folder containing the extension files
    - The extension should now appear in your extensions list
 
 5. **Verify installation**
@@ -58,11 +58,11 @@ Follow these steps to install the extension:
 
 ## Files
 
-The extension files are located in the `files/` folder:
+The extension files are located in the `youtube-link-modifier/` folder:
 
-- `files/manifest.json` - Extension configuration and permissions
-- `files/content.js` - Main functionality script
-- `files/styles.css` - Styling for the extension UI
+- `youtube-link-modifier/manifest.json` - Extension configuration and permissions
+- `youtube-link-modifier/content.js` - Main functionality script
+- `youtube-link-modifier/styles.css` - Styling for the extension UI
 
 ## Permissions
 
