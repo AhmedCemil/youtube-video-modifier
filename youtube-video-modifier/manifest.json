@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Modifier",
+  "version": "1.0",
+  "description": "Replace YouTube player with privacy-enhanced embed (no ads, no tracking)",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube Video Modifier"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
